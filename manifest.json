@@ -8,7 +8,7 @@
     },
     "manifest_version": 3,
     "version": "0.1",
-    "description": "Convierte precios en U$D a Pesos Dolar Blue",
+    "description": "Convierte precios en U$D a Pesos Dolar Blue en MELI",
     "permissions": [
       "activeTab",
       "scripting"
@@ -17,6 +17,6 @@
       "service_worker": "js/inject.js"
     },
     "browser_action": {
-      "default_title": "Ultimas Noticias lanacion.com"
+      "default_title": "Convierte precios en U$D a Pesos Dolar Blue en MELI"
     }
   }
