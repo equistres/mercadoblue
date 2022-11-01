@@ -1,0 +1,22 @@
+{
+    "name": "MercadoBlue",
+    "action": {},
+    "icons": {
+      "16": "img/icon.png",
+      "48": "img/icon.png",
+      "128": "img/icon.png"
+    },
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Convierte precios en U$D a Pesos Dolar Blue",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "js/inject.js"
+    },
+    "browser_action": {
+      "default_title": "Ultimas Noticias lanacion.com"
+    }
+  }
