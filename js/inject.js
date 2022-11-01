@@ -16,6 +16,18 @@
                 }).replace(",00","");
 
                 am.insertAdjacentHTML('beforeend', `<br id="mercadoblue"/><span id="mercadoblue" style="color:blue; font-size:20px!important">MB: ${result} </span>`);
+            } else {
+                let price = Number(am.childNodes[1].innerHTML.replaceAll(".",""));
+
+                var value = price/cotizacion;
+
+                var result = Math.round(value).toLocaleString('en-US', {
+                    style: 'currency',
+                    currency: 'USD',
+                }).replace(".00", "").replace("$", "U$D ");
+
+                
+                am.insertAdjacentHTML('beforeend', `<br id="mercadoblue"/><span id="mercadoblue" style="color:green; font-size:20px!important">MB: ${result} </span>`);
             }
                 
         });
