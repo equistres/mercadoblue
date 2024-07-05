@@ -10,7 +10,7 @@ Extension para Chrome/Brave que obtiene el precio en dolar de publicaciones de M
 
 * Selecciona la opcion Cargar Extension sin empaquetar, selecciona la carpeta que descomprimiste en el escritorio
 
-* Ingresa a MERCADOLIBRE y navega normalmente, cuando veas un precio en U$D hace click en la extension y te va a calcular el precio en $ARS
+* Ingresa a MERCADOLIBRE y navega normalmente, cuando veas un precio en U$D hace click en la extension y te va a calcular el precio en $ARS (sirve para todo lo que es vehiculos, autos, motos, embarcaciones)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
